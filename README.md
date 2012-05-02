@@ -25,7 +25,7 @@ For example:
 
 ```
 /Resources/fe/controllers/News.js
-/Resources/fe/controllers/News.js
+/Resources/fe/views/News.js
 ```
 
 Moreover, you need to add the controller's name into ```Fe.includeControllers(...)```. Life's not perfect.
@@ -100,6 +100,14 @@ Just don't be lazy, ok?
 
 Author
 ----------
-Tanin Na Nakorn - In an attempt of helping ChatterBox build the first prototype
+Tanin Na Nakorn -- in an attempt of helping ChatterBox build the first working prototype.
 
 
+License
+----------
+
+It's under Tanin's license, which means you can do whatever with it. For example:
+
+* No need to cite or mention that you are using this framework
+* You may copy and develop it into something else without referring to it
+* You may copy it and simply say it is yours
