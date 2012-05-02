@@ -3,7 +3,7 @@ Silver(Fe) - A MVC Framework for Titanium SDK
 
 An MVC framework that gives you a Facebook-alike app on both iOS and Android.
 
-It's incomplete, but it's very nice.
+It doesn't have the model part, but you can easily add it as global objects. I will add the model part in the future.
 
 This project consists of the framework's files, which are ```fe.js``` and ```/Resources/fe/base/*```. It's very lightweighted.
 
