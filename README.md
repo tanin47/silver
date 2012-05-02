@@ -1,4 +1,4 @@
-Silver(Fe) - A Titanium-SDK MVC Framework
+Silver(Fe) - A MVC Framework for Titanium SDK
 ------------------------------------------
 
 An MVC framework that gives you a Facebook-alike app on both iOS and Android.
