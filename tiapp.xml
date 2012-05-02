@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">dOjAGgTn4UaBLJfWj4bSOmE0OWLGilT4</property>
+    <property name="acs-oauth-key-production" type="string">up9waudgudoKVNVhY7PAWtC0o3b7JPUN</property>
+    <property name="acs-api-key-production" type="string">W1CjkrNutyma0ZaZeNk3nEcEFkGRwYxT</property>
+    <property name="acs-oauth-secret-development" type="string">9oC5Qmx6k6vZL5rFlc7bmyNIEtDkOBqv</property>
+    <property name="acs-oauth-key-development" type="string">5HjPD5A2q0tlnmkTsHha4qNuBaGJtwbk</property>
+    <property name="acs-api-key-development" type="string">yENSExD5ThHIh8lhTosvoB2KZB3vg2cZ</property>
+    <deployment-targets>
+        <target device="mobileweb">false</target>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.0.1.GA2</sdk-version>
+    <id>chatterbox.webboard.prototype2</id>
+    <name>webboard-prototype-2</name>
+    <version>1.0</version>
+    <publisher>apiromna</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2012 by apiromna</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>65e4145c-e734-4545-a1f0-4cfe5e911d35</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs" version="2.0.1">ti.cloud</module>
+    </modules>
+</ti:app>
