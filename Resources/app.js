@@ -2,7 +2,14 @@
 Titanium.UI.setBackgroundColor('#000');
 
 Ti.include('/fe/fe.js');
-Fe.setRootController(Fe.controllers.frame);
+Fe.includeControllers([
+	'News',
+	'Profile', 
+	'SomePage', 
+	'SomePageAgain',
+	'Frame'
+]);
+Fe.setRootController(Fe.controllers.Frame);
 Fe.openWindow();
 
 

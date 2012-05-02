@@ -150,33 +150,9 @@ Ti.include('/fe/base/all.js');
 		return __exports;
 	};
 	
-	Fe.includeDir = function(/*String*/ dir) {
-		var fullPath = Ti.Filesystem.resourcesDirectory + Ti.Filesystem.separator + 'fe' + Ti.Filesystem.separator + dir;
-		var dir = Titanium.Filesystem.getFile(fullPath);
-		var items = dir.getDirectoryListing();
-		
-		for (var i=0; i<items.length; i++ ) {
-			if (items[i].match(/\.js$/) == null) continue;
-			
-			Ti.include('/fe/' + dir + '/' + items[i].toString());
-		}
-	};
-	
 	Fe.includeControllers = function(names) {
 		Ti.API.warn('Include all controllers');
-		
-		// var fullPath = Ti.Filesystem.resourcesDirectory + 'fe' + Ti.Filesystem.separator + 'controllers';
-		// var dir = Titanium.Filesystem.getFile(fullPath);
-		// var items = dir.getDirectoryListing();
-// 		
-		// for (var i=0; i<items.length; i++ ) {
-			// if (items[i].match(/\.js$/) == null) continue;
-// 			
-			// var controllerName = items[i].replace(/\.js$/, '');
-// 			
-			// Fe.controllers[controllerName] = new Fe.Controller(controllerName, require('/fe/controllers/' + controllerName));
-		// }
-		
+
 		for (var i=0;i<names.length;i++) {
 			var controllerName = names[i];
 			Fe.controllers[controllerName] = new Fe.Controller(controllerName, Fe.require('/fe/controllers/' + controllerName));
@@ -221,13 +197,3 @@ Ti.include('/fe/base/all.js');
 	};
 })();
 
-
-//Fe.includeConfigs();;
-//Fe.includeDir('lib');
-Fe.includeControllers([
-	'videoMain',
-	'webboardMain', 
-	'webboardAdd', 
-	'webboardView',
-	'frame'
-]);

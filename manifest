@@ -1,8 +1,8 @@
-#appname:webboard-prototype-2
-#publisher:apiromna
-#url:http://
+#appname:silver
+#publisher:tanin
+#url:http://github.com/tanin47/silver.git
 #image:appicon.png
-#appid:chatterbox.webboard.prototype2
+#appid:tanin.fe
 #desc:not specified
-#type:ipad
+#type:android
 #guid:65e4145c-e734-4545-a1f0-4cfe5e911d35

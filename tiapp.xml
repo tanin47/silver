@@ -14,13 +14,13 @@
         <target device="blackberry">false</target>
     </deployment-targets>
     <sdk-version>2.0.1.GA2</sdk-version>
-    <id>chatterbox.webboard.prototype2</id>
-    <name>webboard-prototype-2</name>
+    <id>tanin.fe</id>
+    <name>silver</name>
     <version>1.0</version>
-    <publisher>apiromna</publisher>
+    <publisher>tanin</publisher>
     <url>http://</url>
     <description>not specified</description>
-    <copyright>2012 by apiromna</copyright>
+    <copyright>2012 by Tanin Na Nakorn</copyright>
     <icon>appicon.png</icon>
     <persistent-wifi>false</persistent-wifi>
     <prerendered-icon>false</prerendered-icon>

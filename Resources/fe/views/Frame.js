@@ -25,26 +25,26 @@ __exports = (function() {
 	view.mainFrame.add(view.mainMenu);
 	
 	
-	view.mainMenu.webboardButton = Ti.UI.createButton({
+	view.mainMenu.newsButton = Ti.UI.createButton({
 		left: Fe.screenWidth/2 + 10,
 		top: 10,
 		width: 130,
 		height: 30,
-		title: 'Webboard'
+		title: 'News'
 	});
 	
-	view.mainMenu.add(view.mainMenu.webboardButton);
+	view.mainMenu.add(view.mainMenu.newsButton);
 	
 
-	view.mainMenu.videoButton = Ti.UI.createButton({
+	view.mainMenu.profileButton = Ti.UI.createButton({
 		left: Fe.screenWidth/2 + 10,
 		top: 50,
 		width: 130,
 		height: 30,
-		title: 'Video'
+		title: 'Profile'
 	});
 	
-	view.mainMenu.add(view.mainMenu.videoButton);
+	view.mainMenu.add(view.mainMenu.profileButton);
 	
 	return view;
 })();

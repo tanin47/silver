@@ -8,14 +8,14 @@ __exports.viewLoaded = function() {
 		this.finishLayout();
 	};
 	
-	this.switchController(Fe.controllers.webboardMain);
+	this.switchController(Fe.controllers.News);
 	
-	this.view.mainMenu.videoButton.addEventListener('click', function() {
-		self.switchController(Fe.controllers.videoMain);
+	this.view.mainMenu.profileButton.addEventListener('click', function() {
+		self.switchController(Fe.controllers.Profile);
 	});
 	
-	this.view.mainMenu.webboardButton.addEventListener('click', function() {
-		self.switchController(Fe.controllers.webboardMain);
+	this.view.mainMenu.newsButton.addEventListener('click', function() {
+		self.switchController(Fe.controllers.News);
 	});
 };
 

@@ -1,7 +1,6 @@
 __exports = (function() {
 	var view = Ti.UI.createView({ 
-		backgroundColor: '#999',
-		backgroundImage: 'images/background.jpg' 
+		backgroundColor: '#666'
 	});
 	
 	view.menuButton = Ti.UI.createButton({
@@ -12,6 +11,13 @@ __exports = (function() {
 		title: 'Menu'
 	});
 	view.add(view.menuButton);
+	
+	view.add(Ti.UI.createLabel({
+		text: "This is the Profile page",
+		width: 'auto',
+		textAlign: 'center',
+		color: '#FFF'
+	}));
 	
 	return view;
 })();
