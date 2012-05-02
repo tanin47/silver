@@ -35,7 +35,8 @@ __exports = (function() {
 	(function() {
 		view.table.addEventListener('click', function(e){
 			Ti.API.warn(e.index);
-			//ui.controller.view.open({ animated: true });
+			if (e.index == 0) return;
+			Fe.pushController(Fe.controllers.webboardView);
 		});
 		
 		var header = Ti.UI.createTableViewRow({

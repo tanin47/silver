@@ -5,10 +5,6 @@ __exports.viewLoaded = function() {
 		Fe.popController();
 	});
 	
-	this.view.viewButton.addEventListener('click', function() {
-		Fe.pushController(Fe.controllers.webboardView);
-	});
-	
 	this.view.topicTextarea.addEventListener('return', function(e) {
 		Fe.popController();
 	});

@@ -4,15 +4,6 @@ __exports = (function() {
 		backgroundImage: 'images/background.jpg' 
 	});
 	
-	view.viewButton = Ti.UI.createButton({
-		right: 10,
-		top: 10,
-		width: 100,
-		height: 30,
-		title: 'View'
-	});
-	view.add(view.viewButton);
-	
 	view.backButton = Ti.UI.createButton({
 		left: 10,
 		top: 10,
