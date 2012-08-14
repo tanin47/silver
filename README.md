@@ -103,11 +103,10 @@ Author
 Tanin Na Nakorn -- in an attempt of helping ChatterBox build the first working prototype.
 
 
+
 License
-----------
+---------
 
-It's under Tanin's license, which means you can do whatever with it. For example:
+Do What The Fuck You Want To Public License (http://sam.zoy.org/wtfpl/)
 
-* No need to cite or mention that you are using this framework
-* You may copy and develop it into something else without referring to it
-* You may copy it and simply say it is yours
+0. You just DO WHAT THE FUCK YOU WANT TO.
